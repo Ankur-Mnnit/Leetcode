@@ -7,7 +7,7 @@ void pairs(vector<int> v,int target){
         if(m.find(v[i]-target)!=m.end()){
             cout<<i<<m[v[i]-target];
         }
-        m[v[i]=i;
+        m[v[i]]=i;
     }
     
 }
